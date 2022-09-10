@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Light control pannel</title>
+    <style>
+        .button {
+          background-color: white;
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+        
+        .button1 {background-color: red;}
+        .button2 {background-color: green;}
+        .button3 {background-color: yellow;}
+        .button4 {background-color: grey;}
+        .button5 {background-color: gold;}
+        </style>
+</head>
+<body>
+    <form action="/redon/" method="post">
+        <button class="button button1" name="redon" type="submit">Turn on red</button>
+    </form>
+    <form action="/redoff/" method="post">
+        <button name="redoff" class="button button1" type="submit">Turn off red</button>
+    </form>
+    <form action="/greenon/" method="post">
+        <button class="button button2" name="redon" type="submit">Turn on green</button>
+    </form>
+    <form action="/greenoff/" method="post">
+        <button class="button button2" name="redon" type="submit">Turn off green</button>
+    </form>
+    <form action="/yellowon/" method="post">
+        <button class="button button3" name="redon" type="submit">Turn on yellow</button>
+    </form>
+    <form action="/yellowoff/" method="post">
+        <button class="button button3" name="redon" type="submit">Turn off yellow</button>
+    </form>
+    <form action="/allon/" method="post">
+        <button class="button button4" name="redon" type="submit">Turn on all</button>
+    </form>
+    <form action="/alloff/" method="post">
+        <button class="button button4" name="redon" type="submit">Turn off all</button>
+    </form>
+    <form action="/trafficlight/" method="post">
+        <button class="button button5" name="redon" type="submit">Traffic System</button>
+    </form>
+</body>
+</html>
